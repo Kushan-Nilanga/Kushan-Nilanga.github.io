@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kushan-nilanga.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/kushan-nilanga.github.io/static/js/main.418b673b.js",
-    "static/js/787.1ed0c42c.chunk.js": "/kushan-nilanga.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/kushan-nilanga.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kushan-nilanga.github.io/index.html",
-    "main.073c9b0a.css.map": "/kushan-nilanga.github.io/static/css/main.073c9b0a.css.map",
-    "main.418b673b.js.map": "/kushan-nilanga.github.io/static/js/main.418b673b.js.map",
-    "787.1ed0c42c.chunk.js.map": "/kushan-nilanga.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Kushan-Nilanga.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/Kushan-Nilanga.github.io/static/js/main.72b4dc9b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Kushan-Nilanga.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.svg": "/Kushan-Nilanga.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Kushan-Nilanga.github.io/index.html",
+    "main.073c9b0a.css.map": "/Kushan-Nilanga.github.io/static/css/main.073c9b0a.css.map",
+    "main.72b4dc9b.js.map": "/Kushan-Nilanga.github.io/static/js/main.72b4dc9b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Kushan-Nilanga.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.418b673b.js"
+    "static/js/main.72b4dc9b.js"
   ]
 }
