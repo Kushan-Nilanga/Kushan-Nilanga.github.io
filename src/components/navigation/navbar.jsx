@@ -8,6 +8,7 @@ import {
     useScrollTrigger,
 } from "@mui/material";
 import CloudIcon from "@mui/icons-material/Cloud";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
 
 const nav_items = ["about", "projects", "resume"];
@@ -37,7 +38,7 @@ const Navbar = () => (
                 <Typography
                     variant="p"
                     component="div"
-                    sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+                    sx={{ flexGrow: 1, display: { sm: "block" } }}
                 >
                     <Link
                         to={"/"}
@@ -53,25 +54,41 @@ const Navbar = () => (
                                 flexWrap: "wrap",
                             }}
                         >
-                            <CloudIcon />
+                            <CloudIcon
+                                sx={{ display: { xs: "none", sm: "block" } }}
+                            />
                             <span style={{ padding: "1em" }}>Don Athalage</span>
                         </div>
                     </Link>
                 </Typography>
-                <Box sx={{ display: { xs: "none", sm: "block" } }}>
-                    {nav_items.map((item) => (
-                        <Link
-                            to={item}
-                            style={{
-                                textDecoration: "none",
-                                color: "inherit",
-                                padding: "0.5em",
-                            }}
-                            key={item}
+                <Box sx={{ display: { sm: "block" } }}>
+                    <div
+                        style={{
+                            display: "flex",
+                            alignItems: "center",
+                            flexWrap: "wrap",
+                        }}
+                    >
+                        {nav_items.map((item) => (
+                            <Link
+                                to={item}
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    padding: "0.5em",
+                                }}
+                                key={item}
+                            >
+                                {item}
+                            </Link>
+                        ))}
+                        <a
+                            href="https://github.com/Kushan-Nilanga"
+                            style={{ textDecoration: "none" }}
                         >
-                            {item}
-                        </Link>
-                    ))}
+                            <GitHubIcon sx={{ p: "0.5em" }} />
+                        </a>
+                    </div>
                 </Box>
             </Toolbar>
         </AppBar>
