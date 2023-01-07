@@ -1,7 +1,9 @@
 // home component
 import React from "react";
 import { Container, Box } from "@mui/system";
+
 import background from "../../resources/background.jpeg";
+import Intro from "./components/intro";
 
 const Home = () => (
     <>
@@ -13,7 +15,11 @@ const Home = () => (
             alt="The house from the offer."
             src={background}
         />
-        <Container></Container>
+        <Container>
+            <Box display="flex" width="100%">
+                <Intro />
+            </Box>
+        </Container>
     </>
 );
 
